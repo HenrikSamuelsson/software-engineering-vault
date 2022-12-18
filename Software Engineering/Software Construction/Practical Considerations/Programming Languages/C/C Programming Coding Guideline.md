@@ -1,4 +1,4 @@
-## C-M-001: One Assignment Per Line Limit
+## C-M-001: One assignment per line limit
 
 Multiple assignment on a single line are not allowed.
 
@@ -38,6 +38,5 @@ a = (b++) + (c++);
 
 ### Reasoning
 
-Readability is generally better when only taking one action per line.
+Code readability improves maintainability.
 
-Chaining of assignments can break if the types of the variables are changed in a future implementation.
