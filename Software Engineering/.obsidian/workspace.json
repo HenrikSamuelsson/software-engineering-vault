@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c4f201a2c60ccf35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Construction/Practical Considerations/Programming Languages/C/List of C Coding Guidelines.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Construction/Practical Considerations/Programming Languages/C/The C Programming Language.md",
+                "file": "Software Construction/Practical Considerations/Programming Languages/C/List of C Coding Guidelines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Construction/Practical Considerations/Programming Languages/C/The C Programming Language.md",
+                "file": "Software Construction/Practical Considerations/Programming Languages/C/List of C Coding Guidelines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Construction/Practical Considerations/Programming Languages/C/The C Programming Language.md"
+                "file": "Software Construction/Practical Considerations/Programming Languages/C/List of C Coding Guidelines.md"
               }
             }
           }
@@ -151,6 +163,7 @@
   },
   "active": "62f4fb150b8fcf67",
   "lastOpenFiles": [
+    "Software Construction/Practical Considerations/Programming Languages/C/The C Programming Language.md",
     "Software Construction/Practical Considerations/Programming Languages/Programming Language Classification.md"
   ]
 }
