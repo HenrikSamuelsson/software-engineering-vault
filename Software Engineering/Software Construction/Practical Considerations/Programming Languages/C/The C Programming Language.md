@@ -1,0 +1,1 @@
+C is is a general-purpose programming language that was created in the 1970s and still remains widely used.
