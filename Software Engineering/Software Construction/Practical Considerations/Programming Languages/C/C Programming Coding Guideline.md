@@ -1,42 +1,27 @@
 ## C-M-001: One assignment per line limit
 
-Multiple assignment on a single line are not allowed.
+Maximum one assignment per statement is allowed.
 
-### Examples
+### Discussion
 
-Compliant:
+Having multiple assignments in a line of code impairs code readability. Note that besides the simple assignment (=), the rule also include the compound assignments (+=, -=, etc), as well as the increment and decrement operators (++, --) due to that these de facto also assign a value to a variable.
+
+### Exceptions
+
+Multiple assignments may be used in one statement if to assign multiple variables to one single value. This is due to that the other option, to split the assignments over multiple rows, is deemed to have inferior code readability in this special case.
+
+### Compliant Example
 
 ``` C
-a = c:
-b = c;
+a = b = c = 0;    // Compliant due to exception to the rule.
 ```
 
-``` C
-b += 1;
-a = b + 2;
-```
+### Non-compliant Examples
 
 ``` C
-b++;
-c++;
-a = b + c;
-```
-
-Non-compliant:
-
-``` C
-a = b = c;
-```
-
-``` C
-a = (b += 1) + 2;
+a = (b += 1) + 2; 
 ```
 
 ``` C
 a = (b++) + (c++);
 ```
-
-### Reasoning
-
-Code readability improves maintainability.
-
